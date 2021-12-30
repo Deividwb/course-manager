@@ -3,7 +3,7 @@ import {Injectable} from "@angular/core";
 import {HttpClient} from "@angular/common/http";
 import {Observable} from "rxjs";
 
-//classe sera habilitada para injecao de independencia
+
 @Injectable({
   providedIn:'root'
 })

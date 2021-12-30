@@ -2,12 +2,12 @@ import {Component, OnInit} from "@angular/core";
 import {ActivatedRoute} from "@angular/router";
 import {Course} from "./Course";
 import {CourseService} from "./course.service";
-import {error} from "@angular/compiler/src/util";
+
 
 @Component({
   templateUrl:'./course-info.component.html'
 })
-export class CourseInfoComponent implements OnInit{
+export class CourseInfoComponent implements OnInit {
 
   course!: Course;
 

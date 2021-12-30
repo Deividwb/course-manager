@@ -2,9 +2,9 @@ import {Component, OnInit} from "@angular/core";
 import {Course} from "./Course";
 import {CourseService} from "./course.service";
 
-//decoraitor descrevendo que essa classe é um componet
+
 @Component({
-  templateUrl: './course-list.component.html'
+  templateUrl:'./course-list.component.html'
 })
 export class CourseListComponent implements OnInit {
   filteredCourses : Course[] = [];

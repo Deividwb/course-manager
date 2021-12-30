@@ -7,10 +7,12 @@ import {CommonModule} from "@angular/common";
 import {StarModule} from "../shared/component/star/star.module";
 import {AppPipeModule} from "../shared/pipe/app-pipe.module";
 
+
+
 @NgModule({
   declarations:[
     CourseListComponent,
-    CourseInfoComponent,
+    CourseInfoComponent
   ],imports:[
     CommonModule,
     FormsModule,
